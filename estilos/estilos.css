@@ -141,7 +141,7 @@ header #titulos h2:first-child{
 }
 
 #itsur{
-    background-image: url('../imgs/itsur.jpg');
+    background-image: url('../imgs/itsur.png');
     flex: 1 1 auto;
 }
 
@@ -252,4 +252,71 @@ footer{
 
 .colorCard{
   background-color: #f7f7f7;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+
+*{
+    font-family: 'Recursive', sans-serif;
+}
+/* A modo obscuro*/
+
+body, .bg-white, footer{
+  background-color: #18191a!important;
+}
+.bg-light, .fondoSection, 
+.carousel-item, .card,
+.carousel-item .col-lg-4,
+.card, .sombra, .sombra2, 
+.blog-main, .row,
+.blog-main .bg-white{
+  background-color: #242526!important;
+}
+.dropdown-item:hover{
+  background-color: #242526d0!important;
+}
+.list-group-item, footer,
+.dropdown-menu,
+.list-group-item.active,
+.blog-header div,
+.sombra3,
+.bg-light{
+  background-color: #3b3c3c!important;
+}
+.list-group-item:hover{
+  background-color: #242526!important;
+}
+.border-bottom{
+  border-bottom: 1px solid #3b3c3c !important;
+}
+.sombra3{
+  border: none;
+}
+.list-group-item{
+  border: 1px solid #575a5a !important;
+}
+footer .text-center{
+  background-color: #00000000!important;
+}
+.text-muted{
+  color: #e4e6ebe5!important;
+}
+*{
+  color: #E4E6EB!important;
+}
+.list-group-item{
+  text-overflow: ellipsis;
+  overflow: clip;
+}
+footer{
+  margin-top: 15px;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.container{
+  width: auto;
+}
+.carousel-dark .carousel-control-next-icon,
+.carousel-dark .carousel-control-prev-icon{
+  filter: none;
 }
