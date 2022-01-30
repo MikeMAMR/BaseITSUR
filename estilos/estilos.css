@@ -320,3 +320,8 @@ footer{
 .carousel-dark .carousel-control-prev-icon{
   filter: none;
 }
+
+.bor{
+  border-radius: 25%;
+  
+}
