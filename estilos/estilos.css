@@ -1,0 +1,255 @@
+
+
+.imgCenter{
+    margin: auto;
+    text-align: center;
+}
+
+.imgText{
+    padding: 15px ;
+}
+
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(25%);
+    }
+    
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-25%);
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+  transform: translateX(0);
+}
+
+
+.socialC{
+    margin: 2px !important;
+}
+
+#educacion{
+    background-image: url('../imgs/educacion.png');
+    width: 25%;
+
+}
+
+#titulos {
+    display: flex;
+    flex-flow: column;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 20%;
+    width: 10%;
+}
+
+
+
+.itsurImg{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+.cd {
+    max-width: 90%;
+    padding-left: 10%;
+}
+.cnMAX {
+    height: 1% !important;
+}
+.conImg{
+    width: 68% !important;
+}
+
+.flas{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    padding-top: 1rem;
+    display: flex;
+    flex-flow: column;
+}
+
+header div{
+    display: flex;
+}
+
+#educacion,#tec,#itsur{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+#educacion{
+    background-image: url('../imgs/educacion.png');
+    width: 25%;
+}
+
+#titulos{
+    display: flex;
+    flex-flow: column;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+}
+
+#titulos h2{
+    margin-top: 0;
+    letter-spacing: -.05em;
+    
+    /* font-size: 1.5em; */
+    font-weight: lighter;
+    color: #676663;
+    text-align: center;
+}
+
+header #titulos h2:first-child{
+    font-weight: bolder;
+}
+
+#tecnm{
+    width: 25%;
+    display: flex;
+}
+
+#tec{
+    background-image: url('../imgs/TecNM.png');
+    flex: 2 1 auto;
+}
+
+#itsur{
+    background-image: url('../imgs/itsur.jpg');
+    flex: 1 1 auto;
+}
+
+
+
+  .contenedor{
+    width:90px;
+    height:240px;
+    position:absolute;
+    right:0px;
+    bottom:0px;
+  }
+  .botonF1{
+    width:60px;
+    height:60px;
+    border-radius:100%;
+    background:#F44336;
+    right:0;
+    bottom:0;
+    position:fixed;
+    margin-right:16px;
+    margin-bottom:16px;
+    border:none;
+    outline:none;
+    color:#FFF;
+    font-size:36px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transition:.3s;  
+  }
+  span{
+    transition:.5s;  
+  }
+  .botonF1:hover span{
+    transform:rotate(360deg);
+  }
+  .botonF1:active{
+    transform:scale(1.1);
+  }
+  .btn{
+    width:40px;
+    height:40px;
+    border-radius:100%;
+    border:none;
+    color:#FFF;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    font-size:28px;
+    outline:none;
+    position:fixed;
+    right:0;
+    bottom:0;
+    margin-right:26px;
+    transform:scale(0);
+  }
+  .botonF2{
+    background:#2196F3;
+    margin-bottom:85px;
+    transition:0.5s;
+  }
+  .botonF3{
+    background:#3b5998 ;
+    margin-bottom:130px;
+    transition:0.7s;
+  }
+  .botonF4{
+    background:#009688;
+    margin-bottom:175px;
+    transition:0.9s;
+  }
+  .botonF5{
+    background:#2196F3;
+    margin-bottom:220px;
+    transition:0.99s;
+  }
+  .animacionVer{
+    transform:scale(1);
+  }
+  
+
+  .cenAs {
+      text-align: center;
+  }
+
+  .sombra{
+    box-shadow: 0 0.25rem 0.75rem rgb(0 0 0 / 10%) !important;
+  }
+  .sombra2{
+    box-shadow: 0 0.25rem 0.75rem rgb(0 0 0 / 40%) !important;
+  }
+
+  .sombra3{
+    box-shadow: 0 0.25rem 0.75rem rgb(0 0 0 / 6%) !important;
+  }
+  .sombra3:hover{
+    box-shadow: 0 0.25rem 0.75rem rgb(0 0 0 / 30%) !important;
+  }
+
+  .fondoSection {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 1%;
+    background-color: #e9ecef;
+  }
+
+footer{
+  padding-top: 2%;
+  border-top: 1px #a09e997a dotted;
+}
+
+.colorCard{
+  background-color: #f7f7f7;
+}
